@@ -7,5 +7,6 @@
     "content_scripts" : [{
         "matches" : [ "http://slither.io/*"],
         "js" : ["kills.js"]
-    }]
+    }],
+    "update_url": "https://github.com/clentner/slither-killcount/raw/master/updates.xml"
 }
