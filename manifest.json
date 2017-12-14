@@ -1,0 +1,11 @@
+{
+    "manifest_version": 2,
+    "name": "Slither Kill Count",
+    "version": "1.0",
+    "description": "Slither Kill Count",
+    "permissions": ["http://slither.io/*", "activeTab"],
+    "content_scripts" : [{
+        "matches" : [ "http://slither.io/*"],
+        "js" : ["kills.js"]
+    }]
+}
