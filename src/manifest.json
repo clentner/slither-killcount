@@ -2,11 +2,13 @@
     "manifest_version": 2,
     "name": "Slither Kill Count",
     "version": "1.0",
-    "description": "Slither Kill Count",
+    "description": "Displays a kill count for slither.io",
     "permissions": ["http://slither.io/*", "activeTab"],
     "content_scripts" : [{
         "matches" : [ "http://slither.io/*"],
         "js" : ["kills.js"]
     }],
-    "update_url": "https://github.com/clentner/slither-killcount/raw/master/updates.xml"
+    "icons": {
+        "128": "icon_128.png"
+    }
 }
